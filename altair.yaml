@@ -30,16 +30,16 @@ points:
     thumbfan:
       anchor:
         ref: matrix_middle_bottom
-        shift: [-4.5, -22.5]
+        shift: [-4.5, -23]
       columns:
         left:
           key:
-            bind: [3, 1, 0, 0]
+            bind: [3, 4, 0, 0]
         home:
           key:
             bind: [3, 1, 0, 0]
             splay: -5
-            origin: [-11.75, -9]
+            origin: [-10, -9]
         far:
           key:
             bind: [3, 3, 0, 0]
@@ -47,7 +47,7 @@ points:
             origin: [-9.5, -9]
         out:
           key.splay: -12
-          key.origin: [-11, -9]
+          key.origin: [-10, -9]
       rows:
         thumb:
 outlines:
@@ -70,7 +70,7 @@ pcbs:
   altair:
     outlines:
       main:
-        outline: board
+        outline: raw
     footprints:
       mx_hotswap:
         what: mx
@@ -106,7 +106,9 @@ pcbs:
 # How to find footprints
 # https://nilnil.notion.site/Convert-Kicad-Footprints-to-Ergogen-8340ce87ad554c69af4e3f92bc9a0898#98a06fa64386486496ff226889afa55a
 
-# MCU Choice so far: Pro Micro RP2040
-# https://www.sparkfun.com/products/18288
+# MCU Choice so far: Sea Picro RP2040
 
-# Flat Foo
+# Flat Foot Fox walkthrough
+# https://flatfootfox.com/ergogen-introduction/
+
+
