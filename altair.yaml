@@ -1,0 +1,112 @@
+points:
+  zones:
+    matrix:
+      anchor:
+      #shift to fix placement on KiCAD
+        shift: [100, -100]
+      columns:
+        left:
+        pinky:
+        ring:
+          key:
+            stagger: 5
+        middle:
+          key:
+            stagger: 3
+        index:
+          key:
+            stagger: -3
+        inner:
+          key:
+            stagger: -3
+        right:
+          key:
+            stagger: -4.5
+      rows:
+        bottom:
+        home:
+        top:
+        num:
+    thumbfan:
+      anchor:
+        ref: matrix_middle_bottom
+        shift: [-4.5, -22.5]
+      columns:
+        left:
+          key:
+            bind: [3, 1, 0, 0]
+        home:
+          key:
+            bind: [3, 1, 0, 0]
+            splay: -5
+            origin: [-11.75, -9]
+        far:
+          key:
+            bind: [3, 3, 0, 0]
+            splay: -5
+            origin: [-9.5, -9]
+        out:
+          key.splay: -12
+          key.origin: [-11, -9]
+      rows:
+        thumb:
+outlines:
+  raw:
+    - where: true
+      what: rectangle
+      bound: true
+      size: [u + 1, u + 1]
+      fillet: 1
+  keys: 
+      - where: true
+        what: rectangle
+        bound: false
+        size: [u - 0.5, u - 0.5]
+  board:
+    - name: raw
+    - operation: subtract
+      name: keys
+pcbs:
+  altair:
+    outlines:
+      main:
+        outline: board
+    footprints:
+      mx_hotswap:
+        what: mx
+        where: true
+        params:
+          keycaps: true
+          reverse: false
+          hotswap: true
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+      diode:
+        what: diode
+        where: true
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+        #move diode under switch
+          shift: [0, -5]
+      promicro:
+        what: promicro
+        params:
+          orientation: up
+        where:
+          ref: matrix_pinky_num
+          rotate: -90
+          shift: [0, -9]
+
+
+# List of footprints
+# https://gist.github.com/guidoism/523fd22f5e306042e01e4a906e03999b
+
+# How to find footprints
+# https://nilnil.notion.site/Convert-Kicad-Footprints-to-Ergogen-8340ce87ad554c69af4e3f92bc9a0898#98a06fa64386486496ff226889afa55a
+
+# MCU Choice so far: Pro Micro RP2040
+# https://www.sparkfun.com/products/18288
+
+# Flat Foo
