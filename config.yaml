@@ -6,27 +6,44 @@ points:
         shift: [100, -100]
       columns:
         left:
+          key:
+            column_net: P031
         pinky:
+          key:
+            column_net: P029
         ring:
           key:
             stagger: 5
+            column_net: P002
         middle:
           key:
             stagger: 3
+            column_net: P115
         index:
           key:
             stagger: -3
+            column_net: P017
         inner:
           key:
             stagger: -3
+            column_net: P020
         right:
           key:
             stagger: -4.5
+            column_net: P022
       rows:
         bottom:
+          key:
+            row_net: P100
         home:
+          key:
+            row_net: P024
         top:
+          key:
+            row_net: P111
         num:
+          key:
+            row_net: P113
     thumbfan:
       anchor:
         ref: matrix_middle_bottom
@@ -35,21 +52,28 @@ points:
         left:
           key:
             bind: [3, 4, 0, 0]
+            column_net: P115
         home:
           key:
             bind: [3, 1, 0, 0]
             splay: -5
             origin: [-10, -9]
+            column_net: P017
         far:
           key:
             bind: [3, 3, 0, 0]
             splay: -5
             origin: [-9.5, -9]
+            column_net: P020
         out:
-          key.splay: -12
-          key.origin: [-10, -9]
+          key:
+            splay: -12
+            origin: [-10, -9]
+            column_net: P022
       rows:
         thumb:
+          key:
+            row_net: P011
 outlines:
   raw:
     - where: true
@@ -99,9 +123,8 @@ pcbs:
         params:
           orientation: up
         where:
-          ref: matrix_ring_num
-          rotate: -90
-          shift: [0, -9.3]
+          ref: matrix_left_num
+          shift: [9, -1]
       # Battery jack
       jstph:
         what: jstph
@@ -121,14 +144,18 @@ pcbs:
           from: GND
           to: RST
         where: 
-          ref: matrix_left_num
-          shift: [0.5u, 0.41u]
+          ref: matrix_left_home
+          # shift: [0.5u, 0.41u]
+          shift: [-0.41u, 0.4u]
+          rotate: 90
       # Battery on/off switch
       battery_switch:
         what: slider
         where:
-          ref: matrix_pinky_num
-          shift: [0, 0.42u]
+          ref: matrix_left_top
+          # shift: [0, 0.42u]
+          shift: [-0.42u, 0.225u]
+          rotate: 90
         params:
           side: B
           from: pos
@@ -137,13 +164,13 @@ pcbs:
       top_left_hole: 
         what: mountinghole
         where:
-          ref: matrix_left_num
-          shift: [-0.25u, -0.5u]
+          ref: matrix_ring_top
+          shift: [-0.4u, 0.4u]
       top_right_hole:
         what: mountinghole
         where:
-          ref: matrix_right_num
-          shift: [0.25u, -0.5u]
+          ref: matrix_index_top
+          shift: [0.4u, 0.4u]
       bottom_left_hole:
         what: mountinghole
         where: 
