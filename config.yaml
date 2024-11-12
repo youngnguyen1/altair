@@ -75,26 +75,26 @@ points:
           key:
             row_net: P011
 outlines:
-  raw:
+  left:
     - where: true
       what: rectangle
       bound: true
-      size: [u + 1, u + 1]
+      size: [U + 1, U + 1]
       fillet: 1
-  keys: 
+  leftkeys: 
       - where: true
         what: rectangle
         bound: false
-        size: [u - 0.5, u - 0.5]
-  board:
-    - name: raw
+        size: [14, 14]
+  leftcutout:
+    - name: left
     - operation: subtract
-      name: keys
+      name: leftkeys
 pcbs:
   altair:
     outlines:
       main:
-        outline: raw
+        outline: left
     footprints:
       mx_hotswap:
         what: mx
@@ -145,16 +145,16 @@ pcbs:
           to: RST
         where: 
           ref: matrix_left_home
-          # shift: [0.5u, 0.41u]
-          shift: [-0.41u, 0.4u]
+          # shift: [0.5U, 0.41U]
+          shift: [-0.41U, 0.4U]
           rotate: 90
       # Battery on/off switch
       battery_switch:
         what: slider
         where:
           ref: matrix_left_top
-          # shift: [0, 0.42u]
-          shift: [-0.42u, 0.225u]
+          # shift: [0, 0.42U]
+          shift: [-0.42U, 0.225U]
           rotate: 90
         params:
           side: B
@@ -165,40 +165,28 @@ pcbs:
         what: mountinghole
         where:
           ref: matrix_ring_top
-          shift: [-0.4u, 0.4u]
+          shift: [-0.4U, 0.4U]
       top_right_hole:
         what: mountinghole
         where:
           ref: matrix_index_top
-          shift: [0.4u, 0.4u]
+          shift: [0.4U, 0.4U]
       bottom_left_hole:
         what: mountinghole
         where: 
           ref: matrix_left_bottom
-          shift: [-0.25u, 0.5u]
+          shift: [-0.25U, 0.5U]
       bottom_middle_hole:
         what: mountinghole
         where: 
           ref: matrix_ring_bottom
-          shift: [0.5u, -0.5u]
+          shift: [0.5U, -0.5U]
       bottom_right_hole:
         what: mountinghole
         where:
           ref: matrix_right_bottom
-          shift: [0.25u, 0.5u]
-      
-
-
-
-# List of footprints
-# https://gist.github.com/guidoism/523fd22f5e306042e01e4a906e03999b
-
-# How to find footprints
-# https://nilnil.notion.site/Convert-Kicad-Footprints-to-Ergogen-8340ce87ad554c69af4e3f92bc9a0898#98a06fa64386486496ff226889afa55a
-
-# MCU Choice so far: Sea Picro RP2040
-
-# Flat Foot Fox walkthrough
-# https://flatfootfox.com/ergogen-introduction/
-
-
+          shift: [0.25U, 0.5U]
+cases:
+  plate:
+    - name: leftcutout
+      extrude: 1.2
