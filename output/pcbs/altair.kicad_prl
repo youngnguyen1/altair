@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -34,12 +34,15 @@
       3,
       4,
       5,
+      6,
+      7,
       8,
       9,
       10,
       11,
       12,
       13,
+      14,
       15,
       16,
       17,
@@ -74,7 +77,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "temp.kicad_prl",
+    "filename": "altair.kicad_prl",
     "version": 3
   },
   "project": {
