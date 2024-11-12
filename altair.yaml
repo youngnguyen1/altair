@@ -81,6 +81,9 @@ pcbs:
           hotswap: true
           from: "{{column_net}}"
           to: "{{colrow}}"
+        adjust:
+          rotate: 180
+      # Main diodes
       diode:
         what: diode
         where: true
@@ -88,16 +91,76 @@ pcbs:
           from: "{{colrow}}"
           to: "{{row_net}}"
         adjust:
-        #move diode under switch
-          shift: [0, -5]
-      promicro:
-        what: promicro
+          #move diode above switch
+          shift: [0, 4]
+      # Controller
+      nice_nano:
+        what: nice_nano
         params:
           orientation: up
         where:
-          ref: matrix_pinky_num
+          ref: matrix_ring_num
           rotate: -90
-          shift: [0, -9]
+          shift: [0, -9.3]
+      # Battery jack
+      jstph:
+        what: jstph
+        where:
+          ref: matrix_middle_top
+          shift: [-6, -10.5]
+          rotate: 90
+        params: 
+          side: B
+          pos: pos
+          neg: GND
+      # Reset switch
+      horizontal_reset:
+        what: EVQPUC
+        params:
+          side: B
+          from: GND
+          to: RST
+        where: 
+          ref: matrix_left_num
+          shift: [0.5u, 0.41u]
+      # Battery on/off switch
+      battery_switch:
+        what: slider
+        where:
+          ref: matrix_pinky_num
+          shift: [0, 0.42u]
+        params:
+          side: B
+          from: pos
+          to: RAW
+      # Mounting holes M2 screws
+      top_left_hole: 
+        what: mountinghole
+        where:
+          ref: matrix_left_num
+          shift: [-0.25u, -0.5u]
+      top_right_hole:
+        what: mountinghole
+        where:
+          ref: matrix_right_num
+          shift: [0.25u, -0.5u]
+      bottom_left_hole:
+        what: mountinghole
+        where: 
+          ref: matrix_left_bottom
+          shift: [-0.25u, 0.5u]
+      bottom_middle_hole:
+        what: mountinghole
+        where: 
+          ref: matrix_ring_bottom
+          shift: [0.5u, -0.5u]
+      bottom_right_hole:
+        what: mountinghole
+        where:
+          ref: matrix_right_bottom
+          shift: [0.25u, 0.5u]
+      
+
 
 
 # List of footprints
