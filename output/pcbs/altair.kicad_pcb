@@ -93,37 +93,37 @@
   )
 
   (net 0 "")
-(net 1 "P031")
+(net 1 "P020")
 (net 2 "left_bottom")
 (net 3 "left_home")
 (net 4 "left_top")
 (net 5 "left_num")
-(net 6 "P029")
+(net 6 "P106")
 (net 7 "pinky_bottom")
 (net 8 "pinky_home")
 (net 9 "pinky_top")
 (net 10 "pinky_num")
-(net 11 "P002")
+(net 11 "P111")
 (net 12 "ring_bottom")
 (net 13 "ring_home")
 (net 14 "ring_top")
 (net 15 "ring_num")
-(net 16 "P115")
+(net 16 "P010")
 (net 17 "middle_bottom")
 (net 18 "middle_home")
 (net 19 "middle_top")
 (net 20 "middle_num")
-(net 21 "P017")
+(net 21 "P009")
 (net 22 "index_bottom")
 (net 23 "index_home")
 (net 24 "index_top")
 (net 25 "index_num")
-(net 26 "P020")
+(net 26 "P029")
 (net 27 "inner_bottom")
 (net 28 "inner_home")
 (net 29 "inner_top")
 (net 30 "inner_num")
-(net 31 "P022")
+(net 31 "P031")
 (net 32 "right_bottom")
 (net 33 "right_home")
 (net 34 "right_top")
@@ -136,17 +136,17 @@
 (net 41 "GND")
 (net 42 "RST")
 (net 43 "VCC")
-(net 44 "P113")
-(net 45 "P111")
-(net 46 "P010")
-(net 47 "P009")
-(net 48 "P006")
-(net 49 "P008")
-(net 50 "P024")
-(net 51 "P100")
-(net 52 "P011")
-(net 53 "P104")
-(net 54 "P106")
+(net 44 "P002")
+(net 45 "P115")
+(net 46 "P113")
+(net 47 "P006")
+(net 48 "P008")
+(net 49 "P017")
+(net 50 "P022")
+(net 51 "P024")
+(net 52 "P100")
+(net 53 "P011")
+(net 54 "P104")
 (net 55 "pos")
 
   (net_class Default "This is the default net class."
@@ -157,37 +157,37 @@
     (uvia_dia 0.3)
     (uvia_drill 0.1)
     (add_net "")
-(add_net "P031")
+(add_net "P020")
 (add_net "left_bottom")
 (add_net "left_home")
 (add_net "left_top")
 (add_net "left_num")
-(add_net "P029")
+(add_net "P106")
 (add_net "pinky_bottom")
 (add_net "pinky_home")
 (add_net "pinky_top")
 (add_net "pinky_num")
-(add_net "P002")
+(add_net "P111")
 (add_net "ring_bottom")
 (add_net "ring_home")
 (add_net "ring_top")
 (add_net "ring_num")
-(add_net "P115")
+(add_net "P010")
 (add_net "middle_bottom")
 (add_net "middle_home")
 (add_net "middle_top")
 (add_net "middle_num")
-(add_net "P017")
+(add_net "P009")
 (add_net "index_bottom")
 (add_net "index_home")
 (add_net "index_top")
 (add_net "index_num")
-(add_net "P020")
+(add_net "P029")
 (add_net "inner_bottom")
 (add_net "inner_home")
 (add_net "inner_top")
 (add_net "inner_num")
-(add_net "P022")
+(add_net "P031")
 (add_net "right_bottom")
 (add_net "right_home")
 (add_net "right_top")
@@ -200,17 +200,17 @@
 (add_net "GND")
 (add_net "RST")
 (add_net "VCC")
+(add_net "P002")
+(add_net "P115")
 (add_net "P113")
-(add_net "P111")
-(add_net "P010")
-(add_net "P009")
 (add_net "P006")
 (add_net "P008")
+(add_net "P017")
+(add_net "P022")
 (add_net "P024")
 (add_net "P100")
 (add_net "P011")
 (add_net "P104")
-(add_net "P106")
 (add_net "pos")
   )
 
@@ -253,7 +253,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "P031"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "P020"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 2 "left_bottom"))
         )
         
@@ -296,7 +296,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "P031"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "P020"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 3 "left_home"))
         )
         
@@ -339,7 +339,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "P031"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "P020"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 4 "left_top"))
         )
         
@@ -382,7 +382,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "P031"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 1 "P020"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 5 "left_num"))
         )
         
@@ -425,7 +425,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 6 "P029"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 6 "P106"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 7 "pinky_bottom"))
         )
         
@@ -468,7 +468,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 6 "P029"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 6 "P106"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 8 "pinky_home"))
         )
         
@@ -511,7 +511,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 6 "P029"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 6 "P106"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 9 "pinky_top"))
         )
         
@@ -554,7 +554,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 6 "P029"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 6 "P106"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 10 "pinky_num"))
         )
         
@@ -597,7 +597,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 11 "P002"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 11 "P111"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 12 "ring_bottom"))
         )
         
@@ -640,7 +640,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 11 "P002"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 11 "P111"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 13 "ring_home"))
         )
         
@@ -683,7 +683,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 11 "P002"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 11 "P111"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 14 "ring_top"))
         )
         
@@ -726,7 +726,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 11 "P002"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 11 "P111"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 15 "ring_num"))
         )
         
@@ -769,7 +769,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "P115"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "P010"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "middle_bottom"))
         )
         
@@ -812,7 +812,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "P115"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "P010"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 18 "middle_home"))
         )
         
@@ -855,7 +855,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "P115"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "P010"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "middle_top"))
         )
         
@@ -898,7 +898,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "P115"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "P010"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 20 "middle_num"))
         )
         
@@ -941,7 +941,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 21 "P017"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 21 "P009"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 22 "index_bottom"))
         )
         
@@ -984,7 +984,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 21 "P017"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 21 "P009"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 23 "index_home"))
         )
         
@@ -1027,7 +1027,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 21 "P017"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 21 "P009"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 24 "index_top"))
         )
         
@@ -1070,7 +1070,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 21 "P017"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 21 "P009"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 25 "index_num"))
         )
         
@@ -1113,7 +1113,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 26 "P020"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 26 "P029"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 27 "inner_bottom"))
         )
         
@@ -1156,7 +1156,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 26 "P020"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 26 "P029"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 28 "inner_home"))
         )
         
@@ -1199,7 +1199,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 26 "P020"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 26 "P029"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 29 "inner_top"))
         )
         
@@ -1242,7 +1242,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 26 "P020"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 26 "P029"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 30 "inner_num"))
         )
         
@@ -1285,7 +1285,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 31 "P022"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 31 "P031"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 32 "right_bottom"))
         )
         
@@ -1328,7 +1328,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 31 "P022"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 31 "P031"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 33 "right_home"))
         )
         
@@ -1371,7 +1371,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 31 "P022"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 31 "P031"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 34 "right_top"))
         )
         
@@ -1414,7 +1414,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 31 "P022"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 31 "P031"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 35 "right_num"))
         )
         
@@ -1457,7 +1457,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "P115"))
+        (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "P010"))
         (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 36 "left_thumb"))
         )
         
@@ -1500,7 +1500,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 175) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 21 "P017"))
+        (pad 1 smd rect (at -7.085 -2.54 175) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 21 "P009"))
         (pad 2 smd rect (at 5.842 -5.08 175) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 37 "home_thumb"))
         )
         
@@ -1543,7 +1543,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 170) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 26 "P020"))
+        (pad 1 smd rect (at -7.085 -2.54 170) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 26 "P029"))
         (pad 2 smd rect (at 5.842 -5.08 170) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 38 "far_thumb"))
         )
         
@@ -1586,7 +1586,7 @@
         (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
         
         
-        (pad 1 smd rect (at -7.085 -2.54 158) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 31 "P022"))
+        (pad 1 smd rect (at -7.085 -2.54 158) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 31 "P031"))
         (pad 2 smd rect (at 5.842 -5.08 158) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 39 "out_thumb"))
         )
         
@@ -2915,27 +2915,27 @@
         (fp_text user nice!nano (at 13.462 -0.254 90) (layer F.SilkS) (effects (font (size 1.5 1.5) (thickness 0.3))))
 
         
-        (pad 1 thru_hole circle (at -13.97 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 48 "P006"))
-        (pad 2 thru_hole circle (at -11.43 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 49 "P008"))
+        (pad 1 thru_hole circle (at -13.97 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 47 "P006"))
+        (pad 2 thru_hole circle (at -11.43 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 48 "P008"))
         (pad 3 thru_hole circle (at -8.89 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 41 "GND"))
         (pad 4 thru_hole circle (at -6.35 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 41 "GND"))
-        (pad 5 thru_hole circle (at -3.81 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 21 "P017"))
-        (pad 6 thru_hole circle (at -1.27 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 26 "P020"))
-        (pad 7 thru_hole circle (at 1.27 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 31 "P022"))
-        (pad 8 thru_hole circle (at 3.81 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 50 "P024"))
-        (pad 9 thru_hole circle (at 6.35 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 51 "P100"))
-        (pad 10 thru_hole circle (at 8.89 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 52 "P011"))
-        (pad 11 thru_hole circle (at 11.43 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 53 "P104"))
-        (pad 12 thru_hole circle (at 13.97 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 54 "P106"))
+        (pad 5 thru_hole circle (at -3.81 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 49 "P017"))
+        (pad 6 thru_hole circle (at -1.27 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 1 "P020"))
+        (pad 7 thru_hole circle (at 1.27 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 50 "P022"))
+        (pad 8 thru_hole circle (at 3.81 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 51 "P024"))
+        (pad 9 thru_hole circle (at 6.35 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 52 "P100"))
+        (pad 10 thru_hole circle (at 8.89 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 53 "P011"))
+        (pad 11 thru_hole circle (at 11.43 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 54 "P104"))
+        (pad 12 thru_hole circle (at 13.97 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 6 "P106"))
         
-        (pad 13 thru_hole circle (at 13.97 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 47 "P009"))
-        (pad 14 thru_hole circle (at 11.43 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 46 "P010"))
-        (pad 15 thru_hole circle (at 8.89 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 45 "P111"))
-        (pad 16 thru_hole circle (at 6.35 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 44 "P113"))
-        (pad 17 thru_hole circle (at 3.81 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 16 "P115"))
-        (pad 18 thru_hole circle (at 1.27 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 11 "P002"))
-        (pad 19 thru_hole circle (at -1.27 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 6 "P029"))
-        (pad 20 thru_hole circle (at -3.81 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 1 "P031"))
+        (pad 13 thru_hole circle (at 13.97 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 21 "P009"))
+        (pad 14 thru_hole circle (at 11.43 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 16 "P010"))
+        (pad 15 thru_hole circle (at 8.89 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 11 "P111"))
+        (pad 16 thru_hole circle (at 6.35 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 46 "P113"))
+        (pad 17 thru_hole circle (at 3.81 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 45 "P115"))
+        (pad 18 thru_hole circle (at 1.27 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 44 "P002"))
+        (pad 19 thru_hole circle (at -1.27 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 26 "P029"))
+        (pad 20 thru_hole circle (at -3.81 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 31 "P031"))
         (pad 21 thru_hole circle (at -6.35 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 43 "VCC"))
         (pad 22 thru_hole circle (at -8.89 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 42 "RST"))
         (pad 23 thru_hole circle (at -11.43 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 41 "GND"))

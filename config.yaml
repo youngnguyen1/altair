@@ -7,43 +7,43 @@ points:
       columns:
         left:
           key:
-            column_net: P031
+            column_net: P020
         pinky:
           key:
-            column_net: P029
+            column_net: P106
         ring:
           key:
             stagger: 5
-            column_net: P002
+            column_net: P111
         middle:
           key:
             stagger: 3
-            column_net: P115
+            column_net: P010
         index:
           key:
             stagger: -3
-            column_net: P017
+            column_net: P009
         inner:
           key:
             stagger: -3
-            column_net: P020
+            column_net: P029
         right:
           key:
             stagger: -4.5
-            column_net: P022
+            column_net: P031
       rows:
         bottom:
           key:
-            row_net: P100
+            row_net: P008
         home:
           key:
-            row_net: P024
+            row_net: P017
         top:
           key:
-            row_net: P111
+            row_net: P022
         num:
           key:
-            row_net: P113
+            row_net: P024
     thumbfan:
       anchor:
         ref: matrix_middle_bottom
@@ -52,28 +52,28 @@ points:
         left:
           key:
             bind: [3, 4, 0, 0]
-            column_net: P115
+            column_net: P010
         home:
           key:
             bind: [3, 1, 0, 0]
             splay: -5
             origin: [-10, -9]
-            column_net: P017
+            column_net: P009
         far:
           key:
             bind: [3, 3, 0, 0]
             splay: -5
             origin: [-9.5, -9]
-            column_net: P020
+            column_net: P029
         out:
           key:
             splay: -12
             origin: [-10, -9]
-            column_net: P022
+            column_net: P031
       rows:
         thumb:
           key:
-            row_net: P011
+            row_net: P006
 outlines:
   left:
     - where: true
@@ -145,7 +145,6 @@ pcbs:
           to: RST
         where: 
           ref: matrix_left_home
-          # shift: [0.5U, 0.41U]
           shift: [-0.41U, 0.4U]
           rotate: 90
       # Battery on/off switch
@@ -153,7 +152,6 @@ pcbs:
         what: slider
         where:
           ref: matrix_left_top
-          # shift: [0, 0.42U]
           shift: [-0.42U, 0.225U]
           rotate: 90
         params:
